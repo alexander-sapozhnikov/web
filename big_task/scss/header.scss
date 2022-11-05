@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    z-index: 2;
+    &__container {
+        max-width: 1250px;
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        display: flex;
+        width: 32px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    &__docs {
+        margin-right: 30px;
+        color:#D9E3EA;
+    }
+    &__sign {
+        background-color: #5D5DFF;
+        color: #fff;
+    }
+   
+}

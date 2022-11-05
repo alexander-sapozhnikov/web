@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Architects Daughter';
+    src: url('ArchitectsDaughter-Regular.eot');
+    src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'),
+        url('ArchitectsDaughter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArchitectsDaughter-Regular.woff2') format('woff2'),
+        url('ArchitectsDaughter-Regular.woff') format('woff'),
+        url('ArchitectsDaughter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

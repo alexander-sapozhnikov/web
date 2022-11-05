@@ -1,0 +1,104 @@
+.product {
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin-top: 150px;
+    max-width: 1104px;
+ 
+    &__hint {
+        width: 186px;
+        height: 30px;
+        background-color: #C6F6D5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 45px;
+        margin: auto;
+        &>p{
+            color: #36A269;
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 0;
+        }
+    }
+
+    &__title {
+        margin: 16px 0;
+      
+    }
+
+    &__items {
+        margin-top: 80px;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__img {
+                flex-grow: 1;
+                width: 50%;
+                & img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+
+            &__text {
+                width: 50%;
+                &__slogan {
+                    font-family: Architects Daughter;
+                    color: #5D5DFF;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    letter-spacing: -1px;
+                }
+
+                &__title {
+                    margin-top: 8px;
+                    color: #D9E3EA;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 1.5;
+                    letter-spacing: -1px;
+                }
+            
+            
+                &__desc {
+                    margin-top: 8px;
+                    margin-bottom: 8px;
+                    color: #9BA9B4;
+                    font-size: 20px;
+                    line-height: 1.5;
+                    letter-spacing: -1px;
+                }
+
+                &__point {
+                    color: #9BA9B4;
+                    font-size: 18px;
+                    line-height: 1.5;
+                    letter-spacing: -1px;
+                    padding-left: 12px;
+                }
+                &__point::before {
+                    content:url('../images/check.png');
+                    position:relative; 
+                    left:-12px;
+                    top:-1px;
+                }
+            }
+
+            &__text:nth-child(2n+1) {
+                margin-right: 64px;
+            }
+            &__text:nth-child(2n) {
+                margin-left: 64px;
+            }
+        }
+
+    }
+
+
+}

@@ -1,0 +1,641 @@
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Thin.woff2") format("woff2"), url("../fonts/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2"), url("../fonts/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Light.woff2") format("woff2"), url("../fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Architects Daughter";
+  src: url("../fonts/ArchitectsDaughter-Regular.woff2") format("woff2"), url("../fonts/ArchitectsDaughter-Regular.woff") format("woff"), url("../fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Thin.woff2") format("woff2"), url("../fonts/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraLight.woff2") format("woff2"), url("../fonts/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Light.woff2") format("woff2"), url("../fonts/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Architects Daughter";
+  src: url("../fonts/ArchitectsDaughter-Regular.woff2") format("woff2"), url("../fonts/ArchitectsDaughter-Regular.woff") format("woff"), url("../fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #151719;
+  background-image: url("../images/Shape.svg");
+  background-size: 730px 607px;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+*,
+*::before,
+*::after {
+  font-family: Inter;
+  line-height: 1;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: normal;
+  margin: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1175px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+[data-mask] {
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  transition: 0.3s;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bttn {
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+
+section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+hr {
+  margin-top: 80px;
+  background-color: #F4F4FF;
+}
+
+.title {
+  text-align: center;
+  color: #D9E3EA;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.desc {
+  color: #9BA9B4;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0px 30px 0px 30px;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 20px;
+  width: 100%;
+  z-index: 2;
+}
+.header__container {
+  max-width: 1250px;
+}
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  width: 32px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__docs {
+  margin-right: 30px;
+  color: #D9E3EA;
+}
+.nav__sign {
+  background-color: #5D5DFF;
+  color: #fff;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  max-width: 1104px;
+}
+.banner__title {
+  margin-bottom: 16px;
+  text-align: center;
+  color: #D9E3EA;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  margin: 0;
+}
+.banner__desc {
+  color: #9BA9B4;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 16px 30px 0px 30px;
+  margin: 0;
+}
+.banner__action {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner__action .action__trial {
+  background-color: #5D5DFF;
+  margin-right: 12px;
+  color: #fff;
+}
+.banner__action .action__learn {
+  background-color: #33363A;
+  color: #C5D2DC;
+}
+
+.video {
+  width: 100%;
+  margin-top: 64px;
+  max-width: 1018px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../images/CombinedShape.svg");
+  background-size: 563px 551px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+}
+.video__column {
+  max-width: 768px;
+  padding-bottom: 75px;
+}
+
+.main_moment {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  max-width: 1104px;
+}
+.main_moment__title {
+  margin-bottom: 16px;
+}
+.main_moment__items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 80px;
+}
+.main_moment__items__item {
+  flex-grow: 1;
+  width: 27%;
+  margin-top: 64px;
+}
+.main_moment__items__item__img {
+  height: 64px;
+  width: 100%;
+  margin-top: 16px;
+}
+.main_moment__items__item__title {
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #D9E3EA;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+.main_moment__items__item__desc {
+  color: #9BA9B4;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: -1px;
+}
+.main_moment__items__item:nth-child(3n+2) {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-top: 150px;
+  max-width: 1104px;
+}
+.product__hint {
+  width: 186px;
+  height: 30px;
+  background-color: #C6F6D5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 45px;
+  margin: auto;
+}
+.product__hint > p {
+  color: #36A269;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+.product__title {
+  margin: 16px 0;
+}
+.product__items {
+  margin-top: 80px;
+}
+.product__items__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__items__item__img {
+  flex-grow: 1;
+  width: 50%;
+}
+.product__items__item__img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.product__items__item__text {
+  width: 50%;
+}
+.product__items__item__text__slogan {
+  font-family: Architects Daughter;
+  color: #5D5DFF;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+.product__items__item__text__title {
+  margin-top: 8px;
+  color: #D9E3EA;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+.product__items__item__text__desc {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #9BA9B4;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+.product__items__item__text__point {
+  color: #9BA9B4;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  padding-left: 12px;
+}
+.product__items__item__text__point::before {
+  content: url("../images/check.png");
+  position: relative;
+  left: -12px;
+  top: -1px;
+}
+.product__items__item__text:nth-child(2n+1) {
+  margin-right: 64px;
+}
+.product__items__item__text:nth-child(2n) {
+  margin-left: 64px;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  display: flex;
+  margin-top: 80px;
+  max-width: 1104px;
+}
+.reviews__title {
+  margin-bottom: 16px;
+}
+.reviews__items {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.reviews__items__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #25282C;
+  padding: 24px;
+  width: 32%;
+}
+.reviews__items__item__img img {
+  width: 60px;
+  height: 48px;
+  object-fit: cover;
+}
+.reviews__items__item__text {
+  margin-top: 16px;
+  color: #D9E3EA;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.reviews__items__item > hr {
+  margin-top: 24px;
+}
+.reviews__items__item__name {
+  display: flex;
+  margin-top: 20px;
+  color: #D9E3EA;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+.reviews__items__item__name > p:last-child {
+  margin-left: 5px;
+  color: #5D5DFF;
+}
+
+.footer {
+  margin-top: 80px;
+  padding: 0;
+  max-width: 1104px;
+  width: 100%;
+}
+.footer__subscribe {
+  background-image: url("../images/Fill1.svg");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 205px;
+  background-color: #5D5DFF;
+}
+.footer__subscribe__text {
+  width: 50%;
+  padding-left: 30px;
+}
+.footer__subscribe__text__title {
+  font-size: 32px;
+  color: #FFF;
+  line-height: 1.5;
+  text-align: left;
+}
+.footer__subscribe__text__desc {
+  font-size: 18px;
+  color: #E2E1FF;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0;
+}
+.footer__subscribe__action {
+  width: 48%;
+}
+.footer__subscribe__action__input {
+  height: 39px;
+  width: 60%;
+  background-color: #4B4ACF;
+  border: 1px solid #4B4ACF;
+  color: #ABABFF;
+  padding-left: 16px;
+  border-radius: 2px;
+}
+.footer__subscribe__action__bttn {
+  color: #5D5DFF;
+  background-color: #F4F4FF;
+}
+.footer__about__items {
+  margin-top: 64px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__about__items__desc {
+  width: 35%;
+}
+.footer__about__items__desc__logo {
+  display: flex;
+  width: 32px;
+}
+.footer__about__items__desc__text {
+  margin-top: 14px;
+  color: #9BA9B4;
+  line-height: 1.5;
+}
+.footer__about__items__links {
+  width: 55%;
+  display: flex;
+}
+.footer__about__items__links__item {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 14px;
+  width: 33%;
+}
+.footer__about__items__links__item > h3 {
+  color: #D9E3EA;
+}
+.footer__about__items__links__item > a {
+  margin-top: 6px;
+  color: #9BA9B4;
+}
+.footer__final {
+  margin-top: 48px;
+  margin-bottom: 64px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__final__text {
+  font-size: 14px;
+  color: #9BA9B4;
+  line-height: 1.5;
+  text-align: left;
+  padding: 0;
+}
+.footer__final__social {
+  display: flex;
+}
+.footer__final__social__item {
+  background-color: #25282C;
+  border-radius: 45px;
+  margin-left: 16px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.footer__final__social__item > img {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
