@@ -1,0 +1,35 @@
+.industry {
+    &__blocks{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__block{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 280px;
+        width: 25%;
+        background-color: #005CCE;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        img{
+            height: 60px;
+            width: 60px;
+            margin-bottom: 30px;
+        }
+
+        p{
+            font-size: 20px;
+            line-height: 1.5;
+            text-align: center;
+            color: white;
+        }
+
+        p:first-child{
+            margin-top: 100px;
+        }
+    }
+}

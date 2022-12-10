@@ -1,0 +1,47 @@
+.footer {
+    background-color: #2F414F;
+    display: flex;
+    width: 100%;
+    padding: 45px 0;
+
+    &__column{
+        display: flex;
+        justify-content: space-between;
+        h2{
+            color: white;
+            font-size: 24px;
+        }
+        p{
+            color: white;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        &__box{
+            h2{
+                margin-bottom: 30px;
+            }
+            p{
+                margin-bottom: 16px;
+            }
+            p:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__logo{
+            display: flex;
+            align-items: center;
+            
+            img{
+                width: 40px;
+                height: 32px;
+            }
+        }
+    }
+
+    &__column:last-child{
+        margin-top: 60px;
+    }
+
+   
+}

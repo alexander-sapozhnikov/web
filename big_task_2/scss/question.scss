@@ -1,0 +1,107 @@
+.question {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/Rectangle16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &__column{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    &__title{
+        margin-bottom: 70px;
+        text-align: left;
+        color: white;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 1.5;
+    }
+
+
+    &__columns{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__contact{
+        width: 50%;
+        h2{
+            color: white;
+            font-size: 24px;
+            line-height: 1.5;
+            margin: 0;
+            margin-bottom: 32px;
+        }
+
+        &__block{
+            display: flex;
+            img{
+                height: 30px;
+                width: 30px;
+                margin-right: 20px;
+            }
+
+            p{
+                font-size: 24px;
+                color: white;
+                font-weight: 600;
+                margin: 0;
+            }
+        }
+
+        &__block:last-child{
+            margin-top: 30px;
+        }
+    }
+
+    &__form{
+        width: 50%;
+
+        h2{
+            color: white;
+            font-size: 24px;
+            line-height: 1.5;
+            margin: 0;
+            margin-bottom: 32px;
+        }
+
+        &__inputs{
+            display: flex;
+            justify-content: space-between;
+            input{
+                width: 49%;
+                background-color: white;
+                padding: 10px;
+            }
+        }
+
+        &__block{
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-between;
+            a{
+                width: 45%;
+                color: #fff;
+            }
+
+            p{
+                width: 40%;
+                color: #B0B0B0;
+                font-size: 11px;
+            }
+        }
+
+        &_bttn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            background-color: #DB2F09;
+        }
+    }
+}

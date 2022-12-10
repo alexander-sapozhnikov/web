@@ -1,0 +1,64 @@
+@import "_mixins";
+@import "fonts";
+
+*,
+*::before,
+*::after {
+    font-family: Montserrat;
+    line-height: 1;
+    outline: none;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    @include container;
+}
+
+img {
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bttn {
+    padding: 10px 20px;
+    background-color: #DB2F09;
+    color: #fff;
+}
+
+.bttn_white{
+    padding: 10px 20px;
+    color: #DB2F09;
+    background-color: #fff;
+    border: 1px solid #DB2F09;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    // max-width: 1230px;
+    section {
+        align-items: left;
+        justify-content: center;
+        .box{
+            max-width: 1230px;
+            width: 100%;
+        }
+    }
+}
+
+
