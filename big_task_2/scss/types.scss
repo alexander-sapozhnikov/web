@@ -21,9 +21,11 @@
     &__blocks{
         display: flex;
         justify-content: center;
+        @include element_adaptive;
     }
 
     &__block{
+    
         width: 285px;
         height: 160px;
         padding: 20px;
@@ -33,7 +35,7 @@
         background-repeat: no-repeat;
         background-size: 80px;
         background-position-y: 60px;
-        background-position-x: 185px;
+        background-position-x: 175px;
 
         box-shadow: 5px 5px 5px #DDDDDD;
 

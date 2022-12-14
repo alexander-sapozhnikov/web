@@ -40,6 +40,9 @@
         background-color: white;
         width: 560px;
         padding: 40px;
+        @media screen and (max-width: $breakpoint-md) {
+            width: 100%;
+        }
         h2{
             margin: 0;
             margin-bottom: 30px;

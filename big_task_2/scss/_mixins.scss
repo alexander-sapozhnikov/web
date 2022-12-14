@@ -1,5 +1,5 @@
 $breakpoint-lg: 992px;
-$breakpoint-md: 768px;
+$breakpoint-md: 810px;
 $breakpoint-sm: 576px;
 
 $container-lg: 1175px;
@@ -8,7 +8,7 @@ $container-sm: 540px;
 
 $p: 15px;
 
-@mixin container {
+@mixin container_adpative {
     width: 100%;
     max-width: $container-lg;
     padding-left: $p;
@@ -21,6 +21,30 @@ $p: 15px;
 
     @media screen and (max-width: $breakpoint-md) {
         max-width: $container-sm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+        max-width: 100%;
+    }
+}
+
+
+@mixin element_adaptive {
+    width: 100%;
+    max-width: $container-lg;
+    margin: 0 auto;    
+
+    @media screen and (max-width: $breakpoint-lg) {
+        max-width: $container-md;
+    }
+
+    @media screen and (max-width: $breakpoint-md) {
+        max-width: $container-sm;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     @media screen and (max-width: $breakpoint-sm) {

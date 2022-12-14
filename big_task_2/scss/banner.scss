@@ -38,10 +38,12 @@
     }
 
     &__action{
+        @include element_adaptive;
         margin-top: 50px;
         display: flex;
 
         &__first{
+            @include element_adaptive;
             display: flex;
             flex-grow: 8; 
             margin-right: 30px;

@@ -21,6 +21,7 @@
     &__blocks{
         display: flex;
         justify-content: space-between;
+        @include element_adaptive;
     }
 
     &__block{

@@ -23,18 +23,22 @@
     &__blocks{
         display: flex;
         justify-content: space-between;
+        @include element_adaptive;
     }
 
     &__block{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
         margin-top: 70px;
         width: 32%;
         border: solid 1px #DDDDDD;
         padding: 30px;
         box-shadow: 5px 5px 5px #DDDDDD;
+
+        @media screen and (max-width: $breakpoint-md) {
+            width: 100%;
+        }
 
         h2{
             text-align: left;

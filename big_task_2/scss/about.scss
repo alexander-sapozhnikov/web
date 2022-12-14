@@ -23,6 +23,7 @@
     }
 
     &__blocks{
+        @include element_adaptive;
         display: flex;
         justify-content: space-between;
     }
@@ -55,6 +56,10 @@
         height: 160px;
         background-color: rgb(184, 184, 184);
         margin: 0 2px;
+        @media screen and (max-width: $breakpoint-md) {
+            height: 1px;
+            width: 250px;
+        }
     }
 
 

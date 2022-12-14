@@ -2,6 +2,7 @@
     &__blocks{
         display: flex;
         flex-wrap: wrap;
+        
     }
 
     &__block{
@@ -14,6 +15,9 @@
         background-color: #005CCE;
         background-repeat: no-repeat;
         background-size: cover;
+        @media screen and (max-width: $breakpoint-md) {
+            width: 50%;
+        }
 
         img{
             height: 60px;
